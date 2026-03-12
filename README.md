@@ -1,10 +1,12 @@
 # awesome-neural-holography
 
-A curated list of resources on neural holographic displays.
+A curated list of resources on **`neural holographic displays`**.
 
-## Disclaimer
-
-This list is compiled during my paper survey about holographic displays, and is not meant to be exhuastive. The list is organized for me to easily navigate different topics in holography. I would like to thank the authors of the following papers for providing great initial references:
+## Notice 
+> [!NOTE]
+> This repository is a personal survey about the current landscape of holographic display researchs with AI. The original resources was partly adapted by Brian Chao's **`awesome-neural-holography`** project. I would like to thank Brian Chao and the authors of the following works for providing great ideas on holography display research. 
+>
+> **Fork maintainer**: [Jinwoo Lee](cinescope-wkr.github.io) (cinescope@kaist.ac.kr)
 
 - [Neural Holography with Camera-in-the-loop Training](https://www.computationalimaging.org/publications/neuralholography/) (Peng et al. 2020)
 - [Learned Hardware-in-the-loop Phase Retrieval for Holographic Near-Eye Displays](https://light.princeton.edu/publication/hil-holography/) (Chakravarthula et al. 2020)
