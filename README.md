@@ -265,6 +265,8 @@ This section tracks frequently referenced publication venues in holography and n
 - Science Advances
 
 ### Conferences
+- CVPR
+- ICCV
 - IEEE VR
 - SIGGRAPH
 - SIGGRAPH Asia
