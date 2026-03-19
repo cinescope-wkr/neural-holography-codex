@@ -264,26 +264,26 @@ Open-source software is often where algorithmic ideas, optical models, and hardw
 This section tracks frequently referenced publication venues in holography and neural display research.
 
 ### Journals
-- ACM Transactions on Graphics (TOG)
-- Light: Science and Applications
-- Nature
-- Nature Photonics
-- Nature Communications
-- Optica
-- Optics Express
-- Science 
-- Science Advances
+- [ACM Transactions on Graphics (TOG)](https://dl.acm.org/journal/tog)
+- [Light: Science & Applications](https://www.nature.com/lsa/)
+- [Nature](https://www.nature.com/nature/)
+- [Nature Photonics](https://www.nature.com/nphoton/)
+- [Nature Communications](https://www.nature.com/ncomms/)
+- [Optica](https://opg.optica.org/optica/home.cfm)
+- [Optics Express](https://opg.optica.org/oe/home.cfm)
+- [Science](https://www.science.org/journal/science)
+- [Science Advances](https://www.science.org/journal/sciadv)
 
 ### Conferences
-- CVPR
-- ICCV
-- IEEE VR
-- SIGGRAPH
-- SIGGRAPH Asia
-- ICCP 
+- [CVPR](https://cvpr.thecvf.com/)
+- [ICCV](https://iccv.thecvf.com/)
+- [IEEE VR](https://ieeevr.org/)
+- [SIGGRAPH](https://www.siggraph.org/)
+- [SIGGRAPH Asia](https://asia.siggraph.org/)
+- [ICCP](https://www.computationalimaging.org/)
 
 ### Workshops
-Workshop-specific entries can be added here as the list grows.
+- [Computational Cameras and Displays (CCD)](https://kristinamonakhova.com/ccd2025/) (CVPR 2025 workshop)
 
 ## Talks, Lectures, Tutorials, and Videos
 ### Videos
