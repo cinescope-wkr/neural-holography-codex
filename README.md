@@ -11,6 +11,8 @@
 
 A curated list of resources on **neural holographic displays**.
 
+Browse the [documentation](https://cinescope-wkr.github.io/awesome-neural-holography/).
+
 ## Notice 
 > [!NOTE]
 > This repository is an ongoing personal survey about the current landscape of holographic display researchs with AI. The original resources were partly adapted from [Brian Chao](https://bchao1.github.io)'s [`awesome-holography`](https://github.com/bchao1/awesome-holography) project. I would like to thank [Brian Chao](https://bchao1.github.io) and the authors of the following works for providing great ideas on holography display research.
@@ -22,7 +24,7 @@ A curated list of resources on **neural holographic displays**.
 
 **This list is an attempt to make those connections easier to see.** The goal is not only to archive papers, but to help researchers from different backgrounds inherit, reinterpret, and extend one another's ideas. Ideally, that kind of shared map can support a small [Cambrian explosion](https://en.wikipedia.org/wiki/Cambrian_explosion) of reusable methods, clearer comparisons, and new experiments that would be harder to discover from within any single silo. 
 
-In that sense, it is also a reminder that the [wonderland](https://worrydream.com/refs/Sutherland_1965_-_The_Ultimate_Display.pdf) Ivan Sutherland imagined in *The Ultimate Display* is still waiting for us.
+In that sense, it is also a reminder that the [wonderland](https://worrydream.com/refs/Sutherland_1965_-_The_Ultimate_Display.pdf) Ivan Sutherland imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to be built.
 
 ## How to Use This List
 This README works best as a reading map: start from the question you care about, then dive into the corresponding paper clusters.
@@ -32,13 +34,13 @@ This README works best as a reading map: start from the question you care about,
 | Build intuition for the field | [Background and Theory](#background-and-theory) | [Survey Papers](#survey-papers), [Learned Propagation Model Methods](#learned-propagation-model-methods) |
 | Understand CGH algorithm families | [Traditional Heuristic Methods](#traditional-heuristic-methods) | [Iterative Methods](#iterative-methods), [Learned Hologram Synthesis Methods](#learned-hologram-synthesis-methods) |
 | Focus on hardware and display constraints | [Topics in Holographic Display Systems](#topics-in-holographic-display-systems) | [Perception-related Research](#perception-related-research), [Small Form-factor Displays](#small-form-factor-displays) |
-| Map the research community | [Labs and Researchers](#labs-and-researchers) | [Journals, Conferences, and Workshops](#journals-conferences-and-workshops), [Talks, Lectures, Tutorials, and Videos](#talks-lectures-tutorials-and-videos) |
+| Map the research community | [Labs and Researchers](#labs-and-researchers) | [Software](#software), [Journals, Conferences, and Workshops](#journals-conferences-and-workshops), [Talks, Lectures, Tutorials, and Videos](#talks-lectures-tutorials-and-videos) |
 
 ## Reading Conventions
-- `(*Author et al. Year | Venue, Publisher*)` shows the publication context at a glance.
+- `(Author et al. Year | Venue, Publisher)` shows the publication context at a glance.
 - Short descriptions are added only when the title alone does not make the main contribution obvious.
 - `CGH` means computer-generated holography, `CITL` means camera-in-the-loop, `SLM` means spatial light modulator, and `HOE` means holographic optical element.
-- `Labs and Researchers`, `Journals, Conferences, and Workshops`, and `Videos` are best treated as reference appendices after you have a method-level overview.
+- `Labs and Researchers`, `Software`, `Journals, Conferences, and Workshops`, and `Videos` are best treated as reference appendices after you have a method-level overview.
 
 ## Table of Contents
 <details>
@@ -59,6 +61,7 @@ This README works best as a reading map: start from the question you care about,
     - [Compression](#compression)
     - [Zero or Higher Diffraction Orders Optimization](#zero-or-higher-diffraction-orders-optimization)
 - [Labs and Researchers](#labs-and-researchers)
+- [Software](#software)
 - [Journals, Conferences, and Workshops](#journals-conferences-and-workshops)
     - [Journals](#journals)
     - [Conferences](#conferences)
@@ -249,6 +252,13 @@ Bulky headsets hamper the development of AR/VR. **Reducing the size** of hologra
 - [NVIDIA Research](https://www.nvidia.com/en-us/research/)
 - [Display Systems Research, Meta Reality Labs](https://about.meta.com/realitylabs/)
 - [Holographic Display Research Team, Samsung Advanced Institute of Technology](https://semiconductor.samsung.com/sait/)
+
+## Software
+Open-source software is often where algorithmic ideas, optical models, and hardware assumptions become concrete. This section collects reusable codebases that help bridge papers and practice.
+
+- [PADO](https://github.com/shwbaek/pado): a PyTorch-based differentiable optics library for wave propagation, optical modeling, and inverse design workflows.
+- [PADO Hologram](https://github.com/cinescope-wkr/pado-hologram): a higher-level holography framework built on top of PADO for CGH experiments and display-aware workflows.
+- [HoloTorch](https://github.com/facebookresearch/holotorch): a differentiable wave-propagation and holography framework released by Meta Research.
 
 ## Journals, Conferences, and Workshops
 This section tracks frequently referenced publication venues in holography and neural display research.

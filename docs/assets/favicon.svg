@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome Neural Holography favicon</title>
+  <desc id="desc">A minimal green laser beam with a beam waist, interference fringes, and a Gaussian intensity profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020705"/>
+      <stop offset="1" stop-color="#09120d"/>
+    </linearGradient>
+    <linearGradient id="beamOuter" x1="18" y1="32" x2="46" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22c55e" stop-opacity=".14"/>
+      <stop offset=".5" stop-color="#86efac" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity=".14"/>
+    </linearGradient>
+    <linearGradient id="beamMid" x1="18" y1="32" x2="46" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4ade80" stop-opacity=".18"/>
+      <stop offset=".5" stop-color="#bbf7d0" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#4ade80" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="beamInner" x1="18" y1="32" x2="46" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bbf7d0" stop-opacity=".12"/>
+      <stop offset=".5" stop-color="#f0fdf4" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#bbf7d0" stop-opacity=".12"/>
+    </linearGradient>
+    <clipPath id="beamClip">
+      <path d="M18 22.5C24 22.5 27.2 27.1 30.8 30.7C31.4 31.2 32.6 31.2 33.2 30.7C36.8 27.1 40 22.5 46 22.5L46 41.5C40 41.5 36.8 36.9 33.2 33.3C32.6 32.8 31.4 32.8 30.8 33.3C27.2 36.9 24 41.5 18 41.5Z"/>
+    </clipPath>
+    <radialGradient id="waistGlow" cx="32" cy="32" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 32) scale(8.5 3)">
+      <stop offset="0" stop-color="#f8fffb" stop-opacity=".82"/>
+      <stop offset=".38" stop-color="#dcfce7" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#86efac" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="waistCore" cx="32" cy="32" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 32) scale(4.6 1.45)">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".88"/>
+      <stop offset=".4" stop-color="#f0fdf4" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#f0fdf4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fringeStroke" x1="28" y1="32" x2="36" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dcfce7" stop-opacity=".18"/>
+      <stop offset=".5" stop-color="#f8fffb" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#dcfce7" stop-opacity=".18"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="url(#bg)"/>
+
+  <path d="M17.5 21L32 32L46.5 21" fill="none" stroke="#dcfce7" stroke-opacity=".1" stroke-width=".85" stroke-linecap="round" stroke-dasharray=".7 3.5"/>
+  <path d="M17.5 43L32 32L46.5 43" fill="none" stroke="#dcfce7" stroke-opacity=".1" stroke-width=".85" stroke-linecap="round" stroke-dasharray=".7 3.5"/>
+
+  <path d="M18 22.5C24 22.5 27.2 27.1 30.8 30.7C31.4 31.2 32.6 31.2 33.2 30.7C36.8 27.1 40 22.5 46 22.5L46 41.5C40 41.5 36.8 36.9 33.2 33.3C32.6 32.8 31.4 32.8 30.8 33.3C27.2 36.9 24 41.5 18 41.5Z" fill="url(#beamOuter)"/>
+  <path d="M18 26.4C23.8 26.4 27 28.8 30.8 31C31.35 31.25 32.65 31.25 33.2 31C37 28.8 40.2 26.4 46 26.4L46 37.6C40.2 37.6 37 35.2 33.2 33C32.65 32.75 31.35 32.75 30.8 33C27 35.2 23.8 37.6 18 37.6Z" fill="url(#beamMid)"/>
+  <path d="M18 29.5C23.8 29.5 27.2 30.4 30.8 31.45C31.28 31.58 32.72 31.58 33.2 31.45C36.8 30.4 40.2 29.5 46 29.5L46 34.5C40.2 34.5 36.8 33.6 33.2 32.55C32.72 32.42 31.28 32.42 30.8 32.55C27.2 33.6 23.8 34.5 18 34.5Z" fill="url(#beamInner)"/>
+
+  <g clip-path="url(#beamClip)">
+    <ellipse cx="32" cy="32" rx="8.5" ry="3" fill="url(#waistGlow)"/>
+    <ellipse cx="32" cy="32" rx="4.6" ry="1.45" fill="url(#waistCore)"/>
+    <path d="M28.4 26.8V37.2" fill="none" stroke="url(#fringeStroke)" stroke-opacity=".82" stroke-width=".8" stroke-linecap="round"/>
+    <path d="M30.2 26.2V37.8" fill="none" stroke="url(#fringeStroke)" stroke-opacity=".92" stroke-width=".8" stroke-linecap="round"/>
+    <path d="M32 25.8V38.2" fill="none" stroke="url(#fringeStroke)" stroke-opacity="1" stroke-width=".95" stroke-linecap="round"/>
+    <path d="M33.8 26.2V37.8" fill="none" stroke="url(#fringeStroke)" stroke-opacity=".92" stroke-width=".8" stroke-linecap="round"/>
+    <path d="M35.6 26.8V37.2" fill="none" stroke="url(#fringeStroke)" stroke-opacity=".82" stroke-width=".8" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -35,7 +35,7 @@ shared reading map can support a small [Cambrian explosion](https://en.wikipedia
 of reusable methods, sharper comparisons, and more cross-pollination between researchers who would
 otherwise stay separated by disciplinary boundaries. In that sense, it is also a reminder that the
 [wonderland](https://worrydream.com/refs/Sutherland_1965_-_The_Ultimate_Display.pdf) Ivan Sutherland
-imagined in *The Ultimate Display* is still waiting for us.
+imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to be built.
 
 ## What You Will Find Here
 
@@ -59,6 +59,12 @@ imagined in *The Ultimate Display* is still waiting for us.
   ---
 
   A quick map of academic and industry groups that repeatedly appear across modern neural holography work.
+
+- **[Software](readme.md#software)**
+
+  ---
+
+  Reusable libraries and frameworks that turn optics and holography papers into working research code.
 
 - **[Venues and talks](readme.md#journals-conferences-and-workshops)**
 
