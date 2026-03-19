@@ -1,11 +1,11 @@
 # awesome-neural-holography
 
 <p align="center">
-  <a href="https://cinescope-wkr.github.io/awesome-differentiable-holography/">
+  <a href="https://cinescope-wkr.github.io/awesome-neural-holography/">
     <img src="https://img.shields.io/badge/Documentation-online-blue" alt="Documentation">
   </a>
-  <a href="https://github.com/cinescope-wkr/awesome-differentiable-holography/actions/workflows/deploy-docs.yml">
-    <img src="https://github.com/cinescope-wkr/awesome-differentiable-holography/actions/workflows/deploy-docs.yml/badge.svg" alt="Docs Deploy">
+  <a href="https://github.com/cinescope-wkr/awesome-neural-holography/actions/workflows/deploy-docs.yml">
+    <img src="https://github.com/cinescope-wkr/awesome-neural-holography/actions/workflows/deploy-docs.yml/badge.svg" alt="Docs Deploy">
   </a>
 </p>
 
@@ -273,15 +273,6 @@ Workshop-specific entries can be added here as the list grows.
 ### Videos
 - [Design of Holographic Display Systems based on Artificial Intelligence](https://www.youtube.com/watch?v=Xcg2krkxk3I&t=4253s) (Suyeon Choi, Silicon Valley ACM SIGGRAPH 2022)
 - [Could Deep Learning Improve Visual Quality in Holographic Displays?](https://www.youtube.com/watch?v=lbgRke4H_HA)(Optica, 2022)
-
-## Local Docs
-Serve the synced MkDocs site locally with `make docs-serve`.
-
-Build the static site with `make docs-build`.
-
-The online docs are published at `https://cinescope-wkr.github.io/awesome-differentiable-holography/`.
-
-The docs site uses Material for MkDocs with a custom landing page, while the main reading list and subtopic pages still read from `README.md` and `subtopics/*.md` through `mkdocs_hooks.py`.
 
 ## Contributing
 If you want to contribute to this list, please 

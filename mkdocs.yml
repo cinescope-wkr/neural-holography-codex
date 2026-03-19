@@ -1,8 +1,8 @@
 site_name: Awesome Neural Holography
 site_description: A curated list of resources on neural holographic displays.
-site_url: https://cinescope-wkr.github.io/awesome-differentiable-holography/
-repo_url: https://github.com/cinescope-wkr/awesome-differentiable-holography
-repo_name: cinescope-wkr/awesome-differentiable-holography
+site_url: https://cinescope-wkr.github.io/awesome-neural-holography/
+repo_url: https://github.com/cinescope-wkr/awesome-neural-holography
+repo_name: cinescope-wkr/awesome-neural-holography
 docs_dir: docs
 site_dir: site
 plugins:
