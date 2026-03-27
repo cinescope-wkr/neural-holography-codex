@@ -256,7 +256,7 @@ Bulky headsets hamper the development of AR/VR. **Reducing the size** of hologra
 - [Computational Design & Fabrication Group, Massachusetts Institute of Technology](https://cdfg.mit.edu)
 - [Camera Culture, MIT Media Lab](https://www.media.mit.edu/groups/camera-culture/overview/)
 - [Computational Biophotonics Laboratory, UNC Chapel Hill](http://www.nicolaspegard.com/index.php)
-- [Graphics and Virtual Reality Group, UNC Chapel Hill](https://telepresence.web.unc.edu)
+- [Visual Computing and Augmented Intelligence Lab, UNC Chapel Hill](https://www.visualcomputing.ai)
 - [Computational Light Laboratory, University College London](https://complightlab.com)
 - [Computational Imaging Group, KAUST](https://vccimaging.org/publications.html)
 - [Computational Imaging Group, POSTECH](https://sites.google.com/view/shbaek/home)

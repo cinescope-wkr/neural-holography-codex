@@ -1,5 +1,6 @@
 ---
 hide:
+  - navigation
   - toc
 ---
 
@@ -28,14 +29,15 @@ constraints, labs, software, and adjacent subtopics.
 
 ## Project Status
 
-<div class="holo-status" markdown="1">
+!!! note "Project Status"
+    This repository is an ongoing personal survey of the current landscape of AI-driven holographic
+    display research.
 
-- `Personal survey`
-- `Alpha`
-- Adapted in part from [Brian Chao's awesome-holography](https://github.com/bchao1/awesome-holography)
-- Maintained by [Jinwoo Lee](https://www.linkedin.com/in/jinwoo-lee-6424281aa/)
+    Acknowledgement: the original resources were adapted in part from
+    [Brian Chao's awesome-holography](https://github.com/bchao1/awesome-holography). This codex
+    also acknowledges Brian Chao and the authors of the works collected here.
 
-</div>
+    Fork maintainer: Jinwoo Lee ([cinescope@kaist.ac.kr](mailto:cinescope@kaist.ac.kr))
 
 ## Why This Exists
 
@@ -68,17 +70,17 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
   Speckle reduction, perception-aware methods, etendue expansion, HOEs, form-factor work, compression, and diffraction-order control.
 
-- **[Labs and researchers](reading-list/labs-and-researchers.md)**
-
-  ---
-
-  A guide to the academic and industry groups behind many of the seminal contributions in modern neural holography.
-
 - **[Software](reading-list/software.md)**
 
   ---
 
   Reusable libraries and frameworks that turn optics and holography papers into working research code.
+
+- **[Labs and researchers](reading-list/labs-and-researchers.md)**
+
+  ---
+
+  A guide to the academic and industry groups behind many of the seminal contributions in modern neural holography.
 
 - **[Venues and communities](reading-list/venues-and-communities.md)**
 
@@ -142,5 +144,5 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 2. Use [browse by section](reading-list/index.md) when you want a shorter guided entry point.
 3. Use [CGH algorithms](reading-list/cgh-algorithms.md) to build a method taxonomy.
 4. Continue with [display-system topics](reading-list/display-systems.md) to understand hardware-side constraints.
-5. Check [labs and researchers](reading-list/labs-and-researchers.md), [venues and communities](reading-list/venues-and-communities.md), and [media and resources](reading-list/media-and-resources.md) for community context and follow-up leads.
+5. Check [software](reading-list/software.md), [labs and researchers](reading-list/labs-and-researchers.md), [venues and communities](reading-list/venues-and-communities.md), and [media and resources](reading-list/media-and-resources.md) for implementation paths and community context.
 6. Dive into subtopics when you want a narrower thread to expand.

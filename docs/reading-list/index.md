@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 # Browse by Section
 
 The full survey remains the default view of the codex. This page is the section-first way to scan the same material when you want a faster, category-based entry point.
@@ -29,17 +24,17 @@ The full survey remains the default view of the codex. This page is the section-
 
   Focus on speckle, perception, etendue, HOEs, compact form factors, compression, and diffraction-order control.
 
-- **[Labs and Researchers](labs-and-researchers.md)**
-
-  ---
-
-  Jump to academic groups and industry labs that repeatedly appear in the literature.
-
 - **[Software](software.md)**
 
   ---
 
   Find reusable codebases and frameworks that turn papers into working research tools.
+
+- **[Labs and Researchers](labs-and-researchers.md)**
+
+  ---
+
+  Jump to academic groups and industry labs that repeatedly appear in the literature.
 
 - **[Venues and Communities](venues-and-communities.md)**
 
