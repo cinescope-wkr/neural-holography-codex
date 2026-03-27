@@ -27,7 +27,6 @@ the field.
 <nav class="holo-home-jumpnav" aria-label="Home section navigation">
   <a href="#philosophy-behind-the-codex">Philosophy behind the Codex</a>
   <a href="#what-the-codex-covers">What the Codex Covers</a>
-  <a href="#ways-in">Ways In</a>
   <a href="#recommended-reading-path">Recommended Reading Path</a>
   <a href="#acknowledgement">Acknowledgement</a>
 </nav>
@@ -62,7 +61,7 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 ## What the Codex Covers { #what-the-codex-covers }
 
-<div class="grid cards" markdown="1">
+<div class="grid cards holo-zigzag-grid" markdown="1">
 
 - **[CGH algorithms](reading-list/cgh-algorithms.md)**
 
@@ -103,48 +102,6 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 </div>
 
-## Ways In { #ways-in }
-
-<div class="grid cards" markdown="1">
-
-- **[I want the codex](readme.md)**
-
-  ---
-
-  Start from the complete codex, then branch into section-specific views when needed.
-
-- **[I want to browse by section](reading-list/index.md)**
-
-  ---
-
-  Use the section guide when you want a shorter, category-first way to scan the material.
-
-- **[I want projection papers](subtopics/holographic_projection.md)**
-
-  ---
-
-  Start from holographic projection papers and related display examples.
-
-- **[I want speckle references](subtopics/speckle_reduction.md)**
-
-  ---
-
-  Focus on speckle suppression strategies and older reference points.
-
-- **[I want diffraction-order notes](subtopics/zero_orders.md)**
-
-  ---
-
-  Go directly to zero-order removal and high-order optimization references.
-
-- **[I want to contribute](contributing.md)**
-
-  ---
-
-  Use the contribution page for submission guidance, scope, and the current experimental graph mock.
-
-</div>
-
 </div>
 
 <div class="holo-home-shell" markdown="1">
@@ -177,7 +134,7 @@ whose structure and collected references helped shape this project.
 
 Many thanks to Brian Chao and to the authors, maintainers, and researchers whose papers, codebases,
 talks, and shared resources make the field easier to study. The current codex is maintained by
-[Jinwoo Lee](mailto:cinescope@kaist.ac.kr).
+[Jinwoo Lee](https://www.linkedin.com/in/jinwoo-lee-6424281aa/).
 
 </div>
 

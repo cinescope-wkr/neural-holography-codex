@@ -14,6 +14,15 @@
   --holo-weight-emphasis: 470;
   --holo-weight-heading: 560;
   --holo-weight-strong: 600;
+  --holo-home-kicker-size: 0.8rem;
+  --holo-home-nav-size: 0.8rem;
+  --holo-home-hero-title-size: clamp(2.45rem, 4.2vw, 3.2rem);
+  --holo-home-hero-lead-size: 1.08rem;
+  --holo-home-section-title-size: clamp(1.38rem, 2.2vw, 1.72rem);
+  --holo-home-body-size: 1rem;
+  --holo-home-card-title-size: 1rem;
+  --holo-home-card-body-size: 0.95rem;
+  --holo-home-meta-size: 0.84rem;
 }
 
 html {
@@ -78,13 +87,14 @@ body {
 }
 
 .md-typeset .holo-hero h1 {
+  font-size: var(--holo-home-hero-title-size);
   font-weight: 460;
   letter-spacing: -0.028em;
   line-height: 1.1;
 }
 
 .md-typeset .holo-hero-lead {
-  font-size: 1.08rem;
+  font-size: var(--holo-home-hero-lead-size);
   font-weight: 390;
   line-height: 1.6;
   margin-bottom: 1rem;
@@ -93,7 +103,7 @@ body {
 
 .md-typeset .holo-kicker {
   color: rgba(244, 251, 255, 0.72);
-  font-size: 0.8rem;
+  font-size: var(--holo-home-kicker-size);
   font-weight: var(--holo-weight-strong);
   letter-spacing: 0.12em;
   margin-bottom: 0.6rem;
@@ -128,17 +138,20 @@ body {
 }
 
 .md-typeset .holo-home-jumpnav a {
-  background: rgba(248, 250, 252, 0.84);
-  border: 1px solid rgba(148, 163, 184, 0.14);
+  background:
+    linear-gradient(180deg, rgba(240, 249, 255, 0.96), rgba(248, 250, 252, 0.9));
+  border: 1px solid rgba(8, 145, 178, 0.14);
   border-radius: 999px;
-  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.02);
-  color: rgba(15, 23, 42, 0.72);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.68),
+    0 6px 16px rgba(8, 145, 178, 0.05);
+  color: rgba(12, 74, 110, 0.9);
   display: inline-flex;
-  font-size: 0.78rem;
-  font-weight: 490;
+  font-size: var(--holo-home-nav-size);
+  font-weight: 540;
   letter-spacing: 0.01em;
   line-height: 1;
-  padding: 0.55rem 0.78rem;
+  padding: 0.62rem 0.92rem;
   text-decoration: none;
   transition:
     border-color 180ms ease,
@@ -150,13 +163,15 @@ body {
 
 .md-typeset .holo-home-jumpnav a:hover,
 .md-typeset .holo-home-jumpnav a:focus {
-  background: rgba(255, 255, 255, 0.96);
-  border-color: rgba(8, 145, 178, 0.16);
+  background:
+    linear-gradient(180deg, rgba(236, 254, 255, 1), rgba(224, 242, 254, 0.96));
+  border-color: rgba(8, 145, 178, 0.28);
   box-shadow:
-    0 6px 16px rgba(15, 23, 42, 0.045),
-    0 1px 2px rgba(15, 23, 42, 0.025);
-  color: rgba(15, 23, 42, 0.9);
-  transform: translateY(-1px);
+    inset 0 1px 0 rgba(255, 255, 255, 0.76),
+    0 10px 22px rgba(8, 145, 178, 0.1),
+    0 1px 2px rgba(15, 23, 42, 0.04);
+  color: rgba(14, 116, 144, 0.98);
+  transform: translateY(-1px) scale(1.01);
 }
 
 .md-typeset h2[id],
@@ -167,6 +182,19 @@ body {
 .md-typeset .holo-home-grid-shell {
   margin: 0 auto;
   max-width: 70rem;
+}
+
+.md-typeset .holo-home-shell > h2,
+.md-typeset .holo-home-grid-shell > h2 {
+  font-size: var(--holo-home-section-title-size);
+  line-height: 1.22;
+  margin-bottom: 0.9rem;
+}
+
+.md-typeset .holo-home-shell > p,
+.md-typeset .holo-home-grid-shell > p {
+  font-size: var(--holo-home-body-size);
+  line-height: 1.78;
 }
 
 .md-typeset .holo-intro::before {
@@ -181,15 +209,15 @@ body {
 
 .md-typeset .holo-intro > p {
   color: var(--md-default-fg-color);
-  font-size: inherit;
-  line-height: 1.7;
+  font-size: var(--holo-home-body-size);
+  line-height: 1.72;
   margin: 0;
 }
 
 .md-typeset .holo-intro-meta {
   border-top: 1px solid rgba(148, 163, 184, 0.12);
   color: var(--md-default-fg-color--light);
-  font-size: 0.82rem;
+  font-size: var(--holo-home-meta-size);
   line-height: 1.55;
   margin-top: 0.9rem;
   padding-top: 0.8rem;
@@ -208,8 +236,8 @@ body {
     0 10px 24px rgba(15, 23, 42, 0.045),
     0 1px 2px rgba(15, 23, 42, 0.025);
   color: rgba(15, 23, 42, 0.72);
-  font-size: 0.92rem;
-  line-height: 1.7;
+  font-size: var(--holo-home-body-size);
+  line-height: 1.72;
   margin-bottom: 2.8rem;
   padding: 1rem 1.1rem 1.05rem;
 }
@@ -236,11 +264,14 @@ body {
 
 .md-typeset .holo-reading-path > p:first-child {
   color: rgba(15, 23, 42, 0.74);
-  font-size: 0.94rem;
+  font-size: var(--holo-home-body-size);
+  line-height: 1.68;
   margin: 0 0 0.75rem;
 }
 
 .md-typeset .holo-reading-path ol {
+  font-size: var(--holo-home-card-body-size);
+  line-height: 1.68;
   margin: 0;
   padding-left: 1.2rem;
 }
@@ -300,6 +331,20 @@ body {
   margin-bottom: 0;
 }
 
+.md-typeset .holo-home-grid-shell .grid.cards > ul > li > p:first-child,
+.md-typeset .holo-home-grid-shell .grid.cards > ol > li > p:first-child {
+  font-size: var(--holo-home-card-title-size);
+  line-height: 1.38;
+  margin-bottom: 0.6rem;
+}
+
+.md-typeset .holo-home-grid-shell .grid.cards > ul > li > p:last-child,
+.md-typeset .holo-home-grid-shell .grid.cards > ol > li > p:last-child {
+  color: rgba(15, 23, 42, 0.72);
+  font-size: var(--holo-home-card-body-size);
+  line-height: 1.68;
+}
+
 .md-typeset .grid.cards strong a,
 .md-typeset .grid.cards a strong,
 .md-typeset .grid.cards > ul > li > p:first-child a,
@@ -350,6 +395,7 @@ body {
   font-weight: var(--holo-weight-emphasis);
 }
 
+.md-sidebar--secondary:not(:has(.md-nav__item > .md-nav__link)),
 .md-sidebar--secondary:has(.md-nav--secondary:not(:has(.md-nav__list > .md-nav__item))) {
   display: none !important;
 }
@@ -359,6 +405,21 @@ body {
   .md-typeset .holo-home-grid-shell .grid.cards {
     gap: 0.7rem;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md-typeset .holo-home-grid-shell .grid.cards.holo-zigzag-grid > ul > li:nth-child(3n + 1),
+  .md-typeset .holo-home-grid-shell .grid.cards.holo-zigzag-grid > ol > li:nth-child(3n + 1) {
+    transform: translate3d(-0.3rem, 0, 0);
+  }
+
+  .md-typeset .holo-home-grid-shell .grid.cards.holo-zigzag-grid > ul > li:nth-child(3n + 2),
+  .md-typeset .holo-home-grid-shell .grid.cards.holo-zigzag-grid > ol > li:nth-child(3n + 2) {
+    transform: translate3d(0.3rem, 0.7rem, 0);
+  }
+
+  .md-typeset .holo-home-grid-shell .grid.cards.holo-zigzag-grid > ul > li:nth-child(3n),
+  .md-typeset .holo-home-grid-shell .grid.cards.holo-zigzag-grid > ol > li:nth-child(3n) {
+    transform: translate3d(-0.15rem, 1.15rem, 0);
   }
 
   .md-typeset .grid.cards {
@@ -628,11 +689,48 @@ body {
     padding: 0.55rem 0.35rem 0.85rem;
     position: sticky;
     scroll-behavior: smooth;
+    scrollbar-color: rgba(56, 189, 248, 0.34) transparent;
     top: 5rem;
     transition:
       box-shadow 260ms cubic-bezier(0.22, 1, 0.36, 1),
       border-color 260ms cubic-bezier(0.22, 1, 0.36, 1),
       background-color 260ms ease;
+  }
+
+  .md-sidebar--secondary .md-sidebar__scrollwrap::before,
+  .md-sidebar--secondary .md-sidebar__scrollwrap::after {
+    content: "";
+    display: block;
+    height: 1.05rem;
+    left: 0;
+    opacity: 0.72;
+    pointer-events: none;
+    position: sticky;
+    right: 0;
+    transition: opacity 220ms ease, box-shadow 220ms ease;
+    z-index: 4;
+  }
+
+  .md-sidebar--secondary .md-sidebar__scrollwrap::before {
+    background:
+      linear-gradient(180deg, rgba(34, 211, 238, 0.18), rgba(34, 211, 238, 0.06) 48%, transparent);
+    border-radius: 0.9rem 0.9rem 0 0;
+    box-shadow:
+      inset 0 1px 0 rgba(186, 230, 253, 0.3),
+      0 10px 18px rgba(14, 165, 233, 0.06);
+    margin-bottom: -1.05rem;
+    top: 0;
+  }
+
+  .md-sidebar--secondary .md-sidebar__scrollwrap::after {
+    background:
+      linear-gradient(0deg, rgba(34, 211, 238, 0.18), rgba(34, 211, 238, 0.06) 48%, transparent);
+    border-radius: 0 0 0.9rem 0.9rem;
+    box-shadow:
+      inset 0 -1px 0 rgba(186, 230, 253, 0.3),
+      0 -10px 18px rgba(14, 165, 233, 0.05);
+    bottom: 0;
+    margin-top: -1.05rem;
   }
 
   .md-sidebar--secondary .md-nav--secondary {
@@ -646,6 +744,14 @@ body {
     box-shadow:
       0 14px 30px rgba(15, 23, 42, 0.085),
       0 2px 6px rgba(15, 23, 42, 0.035);
+    scrollbar-color: rgba(14, 165, 233, 0.5) transparent;
+  }
+
+  .md-sidebar--secondary:hover .md-sidebar__scrollwrap::before,
+  .md-sidebar--secondary:hover .md-sidebar__scrollwrap::after,
+  .md-sidebar--secondary:focus-within .md-sidebar__scrollwrap::before,
+  .md-sidebar--secondary:focus-within .md-sidebar__scrollwrap::after {
+    opacity: 1;
   }
 
   .md-sidebar--secondary .md-sidebar__scrollwrap::-webkit-scrollbar {
@@ -653,7 +759,8 @@ body {
   }
 
   .md-sidebar--secondary .md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
-    background: rgba(148, 163, 184, 0.32);
+    background:
+      linear-gradient(180deg, rgba(125, 211, 252, 0.7), rgba(14, 165, 233, 0.42));
     border-radius: 999px;
     transition: background-color 220ms ease;
   }
@@ -664,7 +771,8 @@ body {
 
   .md-sidebar--secondary:hover .md-sidebar__scrollwrap::-webkit-scrollbar-thumb,
   .md-sidebar--secondary:focus-within .md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
-    background: rgba(148, 163, 184, 0.48);
+    background:
+      linear-gradient(180deg, rgba(56, 189, 248, 0.82), rgba(2, 132, 199, 0.56));
   }
 }
 
@@ -700,11 +808,12 @@ body {
 
 .md-typeset .holo-hero .md-button {
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.03));
-  border-color: rgba(244, 251, 255, 0.14);
+    linear-gradient(180deg, rgba(236, 254, 255, 0.14), rgba(186, 230, 253, 0.08));
+  border-color: rgba(186, 230, 253, 0.22);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.05),
-    0 1px 2px rgba(2, 8, 23, 0.06);
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 6px 14px rgba(2, 8, 23, 0.1);
+  color: rgba(240, 249, 255, 0.96);
   transition:
     background-color 180ms ease,
     box-shadow 180ms ease,
@@ -715,35 +824,35 @@ body {
 
 .md-typeset .holo-hero .md-button--primary {
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(244, 251, 255, 0.92));
-  border-color: rgba(244, 251, 255, 0.18);
+    linear-gradient(180deg, #ecfeff, #dbeafe 96%);
+  border-color: rgba(186, 230, 253, 0.34);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.42),
-    0 8px 18px rgba(2, 8, 23, 0.12);
-  color: #0d1b2a;
+    inset 0 1px 0 rgba(255, 255, 255, 0.54),
+    0 10px 22px rgba(2, 8, 23, 0.16);
+  color: #082f49;
 }
 
 .md-typeset .holo-hero .md-button:hover,
 .md-typeset .holo-hero .md-button:focus {
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.05));
-  border-color: rgba(244, 251, 255, 0.2);
+    linear-gradient(180deg, rgba(236, 254, 255, 0.22), rgba(125, 211, 252, 0.12));
+  border-color: rgba(186, 230, 253, 0.34);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.07),
-    0 6px 14px rgba(2, 8, 23, 0.08);
-  color: #ffffff;
-  transform: translate3d(0, -1px, 0);
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 10px 18px rgba(2, 8, 23, 0.14);
+  color: #f8fdff;
+  transform: translate3d(0, -1px, 0) scale(1.01);
 }
 
 .md-typeset .holo-hero .md-button--primary:hover,
 .md-typeset .holo-hero .md-button--primary:focus {
   background:
-    linear-gradient(180deg, #ffffff, rgba(248, 250, 252, 0.96));
-  border-color: rgba(255, 255, 255, 0.24);
+    linear-gradient(180deg, #f0fdfa, #e0f2fe 96%);
+  border-color: rgba(186, 230, 253, 0.42);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.5),
-    0 10px 22px rgba(2, 8, 23, 0.14);
-  color: #08111d;
+    inset 0 1px 0 rgba(255, 255, 255, 0.62),
+    0 12px 24px rgba(2, 8, 23, 0.18);
+  color: #0c4a6e;
 }
 
 .md-typeset h2,
@@ -914,6 +1023,18 @@ body {
 }
 
 @media screen and (max-width: 44.9375em) {
+  :root {
+    --holo-home-kicker-size: 0.74rem;
+    --holo-home-nav-size: 0.76rem;
+    --holo-home-hero-title-size: clamp(1.9rem, 8vw, 2.4rem);
+    --holo-home-hero-lead-size: 0.99rem;
+    --holo-home-section-title-size: 1.34rem;
+    --holo-home-body-size: 0.97rem;
+    --holo-home-card-title-size: 0.98rem;
+    --holo-home-card-body-size: 0.92rem;
+    --holo-home-meta-size: 0.8rem;
+  }
+
   .md-typeset .holo-hero {
     border-radius: 0.9rem;
     margin-bottom: 1.2rem;
@@ -926,18 +1047,15 @@ body {
   }
 
   .md-typeset .holo-hero h1 {
-    font-size: clamp(1.85rem, 8vw, 2.4rem);
     line-height: 1.12;
   }
 
   .md-typeset .holo-hero-lead {
-    font-size: 0.98rem;
     font-weight: 390;
     line-height: 1.55;
   }
 
   .md-typeset .holo-kicker {
-    font-size: 0.73rem;
     letter-spacing: 0.1em;
   }
 
@@ -957,7 +1075,6 @@ body {
   }
 
   .md-typeset .holo-home-jumpnav a {
-    font-size: 0.74rem;
     padding: 0.5rem 0.68rem;
   }
 
@@ -966,12 +1083,10 @@ body {
   }
 
   .md-typeset .holo-intro > p {
-    font-size: 0.97rem;
     line-height: 1.68;
   }
 
   .md-typeset .holo-intro-meta {
-    font-size: 0.79rem;
     margin-top: 0.78rem;
     padding-top: 0.72rem;
   }

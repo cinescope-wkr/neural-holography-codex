@@ -88,6 +88,33 @@ def _extract_level_two_sections(markdown: str, headings: list[str]) -> str:
     return "\n".join(extracted)
 
 
+def _normalize_extracted_section(markdown: str, headings: list[str]) -> str:
+    lines = markdown.splitlines()
+    normalized: list[str] = []
+
+    for line in lines:
+        heading_match = re.match(r"(#{2,6})\s+(.*)", line)
+        if not heading_match:
+            normalized.append(line)
+            continue
+
+        heading_level = heading_match.group(1)
+        heading_text = heading_match.group(2).strip()
+
+        if heading_level == "##" and heading_text in headings:
+            continue
+
+        if len(heading_level) >= 3:
+            normalized.append(f"{heading_level[1:]} {heading_text}")
+            continue
+
+        normalized.append(line)
+
+    if markdown.endswith("\n"):
+        return "\n".join(normalized) + "\n"
+    return "\n".join(normalized)
+
+
 def _convert_github_alerts(markdown: str) -> str:
     lines = markdown.splitlines()
     converted: list[str] = []
@@ -144,6 +171,7 @@ def on_page_read_source(page, config):
         markdown = _convert_github_alerts(markdown)
         if readme_sections is not None:
             markdown = _extract_level_two_sections(markdown, readme_sections)
+            markdown = _normalize_extracted_section(markdown, readme_sections)
         else:
             markdown = _strip_level_two_sections(markdown, {"Table of Contents", "Local Docs"})
     return markdown

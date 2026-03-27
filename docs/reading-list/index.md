@@ -1,4 +1,4 @@
-# Browse
+# Browse by Section
 
 The codex remains the default view of the project. This page is the section-first way to scan the same material when you want a faster, category-based entry point.
 
