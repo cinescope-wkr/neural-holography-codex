@@ -25,9 +25,9 @@ the field.
 <div class="holo-home-shell" markdown="1">
 
 <nav class="holo-home-jumpnav" aria-label="Home section navigation">
-  <a href="#why-this-exists">Why This Exists</a>
-  <a href="#what-you-will-find-here">What You Will Find Here</a>
-  <a href="#find-what-you-need">Find What You Need</a>
+  <a href="#philosophy-behind-the-codex">Philosophy behind the Codex</a>
+  <a href="#what-the-codex-covers">What the Codex Covers</a>
+  <a href="#ways-in">Ways In</a>
   <a href="#recommended-reading-path">Recommended Reading Path</a>
   <a href="#acknowledgement">Acknowledgement</a>
 </nav>
@@ -42,7 +42,7 @@ labs, software, and adjacent subtopics.
 
 </div>
 
-## Why This Exists { #why-this-exists }
+## Philosophy behind the Codex { #philosophy-behind-the-codex }
 
 **Neural holography is an inherently interdisciplinary field** where optics, graphics, imaging,
 vision, display systems, fabrication, perception, and machine learning all overlap. In practice,
@@ -60,7 +60,7 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 <div class="holo-home-grid-shell" markdown="1">
 
-## What You Will Find Here { #what-you-will-find-here }
+## What the Codex Covers { #what-the-codex-covers }
 
 <div class="grid cards" markdown="1">
 
@@ -103,7 +103,7 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 </div>
 
-## Find What You Need { #find-what-you-need }
+## Ways In { #ways-in }
 
 <div class="grid cards" markdown="1">
 

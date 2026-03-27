@@ -17,10 +17,14 @@ A curated list of resources on **neural holographic displays**.
 >
 > **Fork maintainer**: [Jinwoo Lee](https://www.linkedin.com/in/jinwoo-lee-6424281aa/) (cinescope@kaist.ac.kr)
 
+---
+
 ## Contributing
 This codex becomes more useful when it reflects multiple research cultures at once. Contributions
 that connect optics, graphics, vision, display systems, perception, fabrication, HCI, or machine
 learning perspectives are especially valuable.
+
+---
 
 ## Contribution Guide
 If you want to contribute to this list, please
@@ -29,12 +33,16 @@ If you want to contribute to this list, please
 2. Explain why the paper, book, talk, dataset, lab, or tool is relevant and where it should be placed.
 3. If helpful, mention which community it comes from and what other thread in the list it helps connect.
 
+---
+
 ## Overview
 **Neural holography is an inherently interdisciplinary field** where wave optics, computer graphics, computational imaging, vision, display hardware, perception, fabrication, and machine learning constantly meet. That breadth is part of what makes the area exciting, but it also means that useful ideas are often scattered across communities that do not always share the same language, venues, or evaluation habits.
 
 **This list is an attempt to make those connections easier to see.** The goal is not only to archive papers, but to help researchers from different backgrounds inherit, reinterpret, and extend one another's ideas. Ideally, that kind of shared map can support a small [Cambrian explosion](https://en.wikipedia.org/wiki/Cambrian_explosion) of reusable methods, clearer comparisons, and new experiments that would be harder to discover from within any single silo. 
 
 In that sense, it is also a reminder that the [wonderland](https://worrydream.com/refs/Sutherland_1965_-_The_Ultimate_Display.pdf) Ivan Sutherland imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to be built.
+
+---
 
 ## How to Use This List
 This README works best as a codex: start from the question you care about, then dive into the corresponding paper clusters.
@@ -46,11 +54,15 @@ This README works best as a codex: start from the question you care about, then 
 | Focus on hardware and display constraints | [Topics in Holographic Display Systems](#topics-in-holographic-display-systems) | [Perception-related Research](#perception-related-research), [Small Form-factor Displays](#small-form-factor-displays) |
 | Map the research community | [Labs and Research Groups](#labs-and-research-groups) | [Software](#software), [Venues and Communities](#venues-and-communities), [Media and Resources](#media-and-resources) |
 
+---
+
 ## Reading Conventions
 - `(Author et al. Year | Venue, Publisher)` shows the publication context at a glance.
 - Short descriptions are added only when the title alone does not make the main contribution obvious.
 - `CGH` means computer-generated holography, `CITL` means camera-in-the-loop, `SLM` means spatial light modulator, and `HOE` means holographic optical element.
 - `Labs and Research Groups`, `Software`, `Venues and Communities`, and `Media and Resources` are best treated as reference appendices after you have a method-level overview.
+
+---
 
 ## Table of Contents
 <details>
@@ -83,6 +95,8 @@ This README works best as a codex: start from the question you care about, then 
 
 </details>
 
+---
+
 ## Background, Theory, and Survey
 ### Background and Theory
 - [Introduction to Fourier Optics](https://books.google.com.tw/books/about/Introduction_to_Fourier_Optics.html?id=QllRAAAAMAAJ&redir_esc=y) by Joseph W. Goodman is a great book to learn the basics of wave propagation and holography.
@@ -91,6 +105,8 @@ This README works best as a codex: start from the question you care about, then 
 ### Survey Papers
 - [Toward the next-generation VR/AR optics: a review of holographic near-eye displays from a human-centric perspective](https://opg.optica.org/optica/fulltext.cfm?uri=optica-7-11-1563&id=442336) (*Chang et al. 2020 | Optica, Optica*)
 - [Deep learning in holography and coherent imaging](https://www.nature.com/articles/s41377-019-0196-0) (*Rivenson et al. 2019 | Light: Science and Applications, Nature*)
+
+---
 
 ## Computer Generated Holography (CGH) Algorithms
 
@@ -176,6 +192,8 @@ These works often assume a naive wave propagation model (i.e. the angular spectr
 - [Deep-learning-generated holography](https://opg.optica.org/ao/abstract.cfm?uri=ao-57-14-3859) (*Horisaki et al. 2018 | Applied Optics, Optica*)
 - [Phase recovery and holographic image reconstruction using deep learning in neural networks](https://www.nature.com/articles/lsa2017141) (*Rivenson et al. 2018 | Light: Science and Applications, Nature*)
 
+---
+
 ## Topics in Holographic Display Systems
 
 Use this section when the algorithm is not the whole story and the display system itself becomes the bottleneck.
@@ -248,6 +266,8 @@ Bulky headsets hamper the development of AR/VR. **Reducing the size** of hologra
 - Effect of spurious diffraction orders in arbitrary multifoci patterns produced via phase-only holograms
 - Off-axis camera-in-the-loop optimization with noise reduction strategy for high-quality hologram generation (*Chen et al. 2022 | Optics Letters, Optica*)
 
+---
+
 ## Labs and Research Groups
 ### Academic Labs
 - [Computational Imaging Lab, Stanford University](https://www.computationalimaging.org)
@@ -270,12 +290,16 @@ Bulky headsets hamper the development of AR/VR. **Reducing the size** of hologra
 - [Display Systems Research, Meta Reality Labs](https://tech.facebook.com/reality-labs/2022/6/passing-the-visual-turing-test-the-inside-story-of-our-quest-for-visual-realism-in-vr/)
 - [Holographic Display Research Team, Samsung Advanced Institute of Technology](https://semiconductor.samsung.com/sait/)
 
+---
+
 ## Software
 Open-source software is often where algorithmic ideas, optical models, and hardware assumptions become concrete. This section collects reusable codebases that help bridge papers and practice.
 
 - [PADO](https://github.com/shwbaek/pado): a PyTorch-based differentiable optics library for wave propagation, optical modeling, and inverse design workflows.
 - [PADO Hologram](https://github.com/cinescope-wkr/pado-hologram): a higher-level holography framework built on top of PADO for CGH experiments and display-aware workflows.
 - [HoloTorch](https://github.com/facebookresearch/holotorch): a differentiable wave-propagation and holography framework released by Meta Reality Labs Research.
+
+---
 
 ## Venues and Communities
 This section tracks frequently referenced publication venues in holography and neural display research.
@@ -301,6 +325,8 @@ This section tracks frequently referenced publication venues in holography and n
 
 ### Workshops and Communities
 - [Computational Cameras and Displays (CCD)](https://kristinamonakhova.com/ccd2025/) (CVPR 2025 workshop)
+
+---
 
 ## Media and Resources
 ### Talks and Media
