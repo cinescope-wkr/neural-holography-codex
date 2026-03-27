@@ -33,18 +33,21 @@ nav:
   - Codex:
       - Full Survey: readme.md
       - Browse by Section: reading-list/index.md
-      - Codex Graph: codex/graph.md
       - Section Views:
           - Background and Survey: reading-list/background-and-survey.md
           - CGH Algorithms: reading-list/cgh-algorithms.md
           - Display Systems: reading-list/display-systems.md
           - Labs and Researchers: reading-list/labs-and-researchers.md
           - Software: reading-list/software.md
-          - Venues and Videos: reading-list/venues-and-videos.md
+          - Venues and Communities: reading-list/venues-and-communities.md
+          - Media and Resources: reading-list/media-and-resources.md
   - Subtopics:
       - Holographic Projection: subtopics/holographic_projection.md
       - Speckle Reduction: subtopics/speckle_reduction.md
       - Zero-order Diffraction Removal: subtopics/zero_orders.md
+  - Contributing:
+      - Overview: contributing.md
+      - Experimental Graph Mock: codex/graph.md
 hooks:
   - mkdocs_hooks.py
 watch:

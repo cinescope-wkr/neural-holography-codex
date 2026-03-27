@@ -16,10 +16,8 @@ README_SECTION_PAGE_MAP = {
     "reading-list/display-systems.md": ["Topics in Holographic Display Systems"],
     "reading-list/labs-and-researchers.md": ["Labs and Researchers"],
     "reading-list/software.md": ["Software"],
-    "reading-list/venues-and-videos.md": [
-        "Journals, Conferences, and Workshops",
-        "Talks, Lectures, Tutorials, and Videos",
-    ],
+    "reading-list/venues-and-communities.md": ["Venues and Communities"],
+    "reading-list/media-and-resources.md": ["Media and Resources"],
 }
 
 

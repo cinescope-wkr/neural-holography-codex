@@ -41,11 +41,17 @@ The full survey remains the default view of the codex. This page is the section-
 
   Find reusable codebases and frameworks that turn papers into working research tools.
 
-- **[Venues and Videos](venues-and-videos.md)**
+- **[Venues and Communities](venues-and-communities.md)**
 
   ---
 
-  See the journals, conferences, workshops, and talks that anchor the broader research community.
+  See the journals, conferences, workshops, and recurring community anchors around the field.
+
+- **[Media and Resources](media-and-resources.md)**
+
+  ---
+
+  Browse talks, lectures, and other supporting material that help contextualize the codex.
 
 </div>
 

@@ -16,8 +16,7 @@ display constraints, and the research threads that shape the field.
 
 [Start with the full survey](readme.md){ .md-button .md-button--primary }
 [Browse methods by section](reading-list/index.md){ .md-button }
-[Find labs and researchers](reading-list/labs-and-researchers.md){ .md-button }
-[See the codex graph model](codex/graph.md){ .md-button }
+[Contributing and resources](contributing.md){ .md-button }
 
 </section>
 
@@ -70,17 +69,17 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
   Reusable libraries and frameworks that turn optics and holography papers into working research code.
 
-- **[Codex graph](codex/graph.md)**
+- **[Venues and communities](reading-list/venues-and-communities.md)**
 
   ---
 
-  A design for turning the survey into a typed knowledge graph without losing readable long-form structure.
+  Journals, conferences, workshops, and recurring research communities that shape the field.
 
-- **[Venues and talks](reading-list/venues-and-videos.md)**
+- **[Media and resources](reading-list/media-and-resources.md)**
 
   ---
 
-  Journals, conferences, workshops, and video material that help frame the broader research landscape.
+  Talks, lectures, and other supporting material that make the research landscape easier to follow.
 
 </div>
 
@@ -118,6 +117,12 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
   Go directly to zero-order removal and high-order optimization references.
 
+- **[I want to contribute](contributing.md)**
+
+  ---
+
+  Use the contribution page for submission guidance, scope, and the current experimental graph mock.
+
 </div>
 
 ## Recommended Reading Path
@@ -126,5 +131,5 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 2. Use [browse by section](reading-list/index.md) when you want a shorter guided entry point.
 3. Use [CGH algorithms](reading-list/cgh-algorithms.md) to build a method taxonomy.
 4. Continue with [display-system topics](reading-list/display-systems.md) to understand hardware-side constraints.
-5. Check [labs and researchers](reading-list/labs-and-researchers.md) and [venues and videos](reading-list/venues-and-videos.md) for community context and follow-up leads.
+5. Check [labs and researchers](reading-list/labs-and-researchers.md), [venues and communities](reading-list/venues-and-communities.md), and [media and resources](reading-list/media-and-resources.md) for community context and follow-up leads.
 6. Dive into subtopics when you want a narrower thread to expand.

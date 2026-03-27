@@ -44,13 +44,13 @@ This README works best as a codex: start from the question you care about, then 
 | Build intuition for the field | [Background and Theory](#background-and-theory) | [Survey Papers](#survey-papers), [Learned Propagation Model Methods](#learned-propagation-model-methods) |
 | Understand CGH algorithm families | [Traditional Heuristic Methods](#traditional-heuristic-methods) | [Iterative Methods](#iterative-methods), [Learned Hologram Synthesis Methods](#learned-hologram-synthesis-methods) |
 | Focus on hardware and display constraints | [Topics in Holographic Display Systems](#topics-in-holographic-display-systems) | [Perception-related Research](#perception-related-research), [Small Form-factor Displays](#small-form-factor-displays) |
-| Map the research community | [Labs and Researchers](#labs-and-researchers) | [Software](#software), [Journals, Conferences, and Workshops](#journals-conferences-and-workshops), [Talks, Lectures, Tutorials, and Videos](#talks-lectures-tutorials-and-videos) |
+| Map the research community | [Labs and Researchers](#labs-and-researchers) | [Software](#software), [Venues and Communities](#venues-and-communities), [Media and Resources](#media-and-resources) |
 
 ## Reading Conventions
 - `(Author et al. Year | Venue, Publisher)` shows the publication context at a glance.
 - Short descriptions are added only when the title alone does not make the main contribution obvious.
 - `CGH` means computer-generated holography, `CITL` means camera-in-the-loop, `SLM` means spatial light modulator, and `HOE` means holographic optical element.
-- `Labs and Researchers`, `Software`, `Journals, Conferences, and Workshops`, and `Videos` are best treated as reference appendices after you have a method-level overview.
+- `Labs and Researchers`, `Software`, `Venues and Communities`, and `Media and Resources` are best treated as reference appendices after you have a method-level overview.
 
 ## Table of Contents
 <details>
@@ -74,12 +74,12 @@ This README works best as a codex: start from the question you care about, then 
     - [Zero or Higher Diffraction Orders Optimization](#zero-or-higher-diffraction-orders-optimization)
 - [Labs and Researchers](#labs-and-researchers)
 - [Software](#software)
-- [Journals, Conferences, and Workshops](#journals-conferences-and-workshops)
+- [Venues and Communities](#venues-and-communities)
     - [Journals](#journals)
     - [Conferences](#conferences)
-    - [Workshops](#workshops)
-- [Talks, Lectures, Tutorials, and Videos](#talks-lectures-tutorials-and-videos)
-    - [Videos](#videos)
+    - [Workshops and Communities](#workshops-and-communities)
+- [Media and Resources](#media-and-resources)
+    - [Talks and Media](#talks-and-media)
 
 </details>
 
@@ -277,7 +277,7 @@ Open-source software is often where algorithmic ideas, optical models, and hardw
 - [PADO Hologram](https://github.com/cinescope-wkr/pado-hologram): a higher-level holography framework built on top of PADO for CGH experiments and display-aware workflows.
 - [HoloTorch](https://github.com/facebookresearch/holotorch): a differentiable wave-propagation and holography framework released by Meta Reality Labs Research.
 
-## Journals, Conferences, and Workshops
+## Venues and Communities
 This section tracks frequently referenced publication venues in holography and neural display research.
 
 ### Journals
@@ -299,10 +299,10 @@ This section tracks frequently referenced publication venues in holography and n
 - [SIGGRAPH Asia](https://asia.siggraph.org/)
 - [ICCP](https://www.computationalimaging.org/)
 
-### Workshops
+### Workshops and Communities
 - [Computational Cameras and Displays (CCD)](https://kristinamonakhova.com/ccd2025/) (CVPR 2025 workshop)
 
-## Talks, Lectures, Tutorials, and Videos
-### Videos
+## Media and Resources
+### Talks and Media
 - [Design of Holographic Display Systems based on Artificial Intelligence](https://www.youtube.com/watch?v=Xcg2krkxk3I&t=4253s) (Suyeon Choi, Silicon Valley ACM SIGGRAPH 2022)
 - [Could Deep Learning Improve Visual Quality in Holographic Displays?](https://www.youtube.com/watch?v=lbgRke4H_HA)(Optica, 2022)
