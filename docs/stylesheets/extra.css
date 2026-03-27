@@ -18,13 +18,11 @@
 
 html {
   background: var(--md-footer-bg-color);
-  overscroll-behavior-y: none;
 }
 
 body {
   background: transparent;
   min-height: 100vh;
-  overscroll-behavior-y: none;
 }
 
 .md-container {
