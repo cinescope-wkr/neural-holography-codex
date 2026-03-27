@@ -1,5 +1,5 @@
 site_name: Neural Holography Codex
-site_description: A curated list of resources on neural holographic displays.
+site_description: A growable codex of research on neural holography displays.
 site_url: https://cinescope-wkr.github.io/awesome-neural-holography/
 repo_url: https://github.com/cinescope-wkr/awesome-neural-holography
 repo_name: cinescope-wkr/awesome-neural-holography
@@ -33,9 +33,9 @@ theme:
     - content.code.copy
 nav:
   - Home: index.md
-  - Codex:
+  - Explore:
       - Codex: readme.md
-      - Browse: reading-list/index.md
+      - Browse by Section: reading-list/index.md
       - Section Views:
           - Background and Survey: reading-list/background-and-survey.md
           - CGH Algorithms: reading-list/cgh-algorithms.md
@@ -48,6 +48,7 @@ nav:
       - Holographic Projection: subtopics/holographic_projection.md
       - Speckle Reduction: subtopics/speckle_reduction.md
       - Zero-order Diffraction Removal: subtopics/zero_orders.md
+  - Open Questions: open-questions.md
   - Contributing: contributing.md
 hooks:
   - mkdocs_hooks.py
@@ -62,4 +63,4 @@ markdown_extensions:
   - md_in_html
   - tables
   - toc:
-      permalink: true
+      permalink: false

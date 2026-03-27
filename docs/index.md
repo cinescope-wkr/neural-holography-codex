@@ -18,7 +18,7 @@ the field.
 
 [Start with the codex](readme.md){ .md-button .md-button--primary }
 [Browse methods by section](reading-list/index.md){ .md-button }
-[Contributing and resources](contributing.md){ .md-button }
+[Contributing](contributing.md){ .md-button }
 
 </section>
 
@@ -34,7 +34,7 @@ the field.
 <div class="holo-intro" markdown="1">
 
 Neural holographic displays sit at the intersection of computational holography, wave optics,
-display hardware, human perception, and learned models that try to bridge idealized simulation
+display hardware, human perception, and learnable models that try to bridge idealized simulation
 with physical systems. This codex is an ongoing personal survey of that broader landscape, organized
 as a docs-first path from foundational papers and algorithm families to system-level constraints,
 labs, software, and adjacent subtopics.
@@ -61,45 +61,35 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 ## What the Codex Covers { #what-the-codex-covers }
 
-<div class="grid cards holo-zigzag-grid" markdown="1">
-
-- **[CGH algorithms](reading-list/cgh-algorithms.md)**
-
-  ---
-
-  Traditional heuristics, iterative optimization, learned propagation models, and learned
-  hologram synthesis methods in one place.
-
-- **[Display-system topics](reading-list/display-systems.md)**
-
-  ---
-
-  Speckle reduction, perception-aware methods, etendue expansion, HOEs, form-factor work, compression, and diffraction-order control.
-
-- **[Software](reading-list/software.md)**
-
-  ---
-
-  Reusable libraries and frameworks that turn optics and holography papers into working research code.
-
-- **[Labs and research groups](reading-list/labs-and-researchers.md)**
-
-  ---
-
-  A guide to the academic labs and research groups behind many of the seminal contributions in modern neural holography.
-
-- **[Venues and communities](reading-list/venues-and-communities.md)**
-
-  ---
-
-  Journals, conferences, workshops, and recurring research communities that shape the field.
-
-- **[Media and resources](reading-list/media-and-resources.md)**
-
-  ---
-
-  Talks, lectures, and other supporting material that make the research landscape easier to follow.
-
+<div class="holo-card-grid holo-zigzag-grid">
+  <a class="holo-card" href="reading-list/cgh-algorithms.md">
+    <span class="holo-card-title">CGH algorithms</span>
+    <p>Traditional heuristics, iterative optimization, learned propagation models, and learned hologram synthesis methods in one place.</p>
+  </a>
+  <a class="holo-card" href="reading-list/display-systems.md">
+    <span class="holo-card-title">Display-system topics</span>
+    <p>Speckle reduction, perception-aware methods, etendue expansion, HOEs, form-factor work, compression, and diffraction-order control.</p>
+  </a>
+  <a class="holo-card" href="reading-list/software.md">
+    <span class="holo-card-title">Software</span>
+    <p>Reusable libraries and frameworks that turn optics and holography papers into working research code.</p>
+  </a>
+  <a class="holo-card" href="reading-list/labs-and-researchers.md">
+    <span class="holo-card-title">Labs and research groups</span>
+    <p>A guide to the academic labs and research groups behind many of the seminal contributions in modern neural holography.</p>
+  </a>
+  <a class="holo-card" href="reading-list/venues-and-communities.md">
+    <span class="holo-card-title">Venues and communities</span>
+    <p>Journals, conferences, workshops, and recurring research communities that shape the field.</p>
+  </a>
+  <a class="holo-card" href="reading-list/media-and-resources.md">
+    <span class="holo-card-title">Media and resources</span>
+    <p>Talks, lectures, and other supporting material that make the research landscape easier to follow.</p>
+  </a>
+  <a class="holo-card" href="open-questions.md">
+    <span class="holo-card-title">Open questions</span>
+    <p>A running page for unresolved research questions, cross-cutting tensions, and gaps that still need sharper answers.</p>
+  </a>
 </div>
 
 </div>
@@ -128,7 +118,11 @@ Start with the complete map, then branch outward by purpose.
 
 <div class="holo-acknowledgement" markdown="1">
 
-Many thanks to Brian Chao and to the authors, maintainers, and researchers whose papers, codebases,
+This codex began as an ongoing personal survey of neural holographic display research and was
+adapted in part from [Brian Chao](https://bchao1.github.io)'s [awesome-holography](https://github.com/bchao1/awesome-holography),
+whose structure and collected references helped shape this project.
+
+Many thanks to [Brian Chao](https://bchao1.github.io) and to the authors, maintainers, and researchers whose papers, codebases,
 talks, and shared resources make the field easier to study. The current codex is maintained by
 [Jinwoo Lee](https://www.linkedin.com/in/jinwoo-lee-6424281aa/).
 
