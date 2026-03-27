@@ -3,9 +3,11 @@ hide:
   - toc
 ---
 
-# Reading List
+# Browse by Section
 
-The docs version of the reading list is split into smaller sections so it is easier to scan than a single long README page.
+The full survey remains the default view of the codex. This page is the section-first way to scan the same material when you want a faster, category-based entry point.
+
+[Open the full survey](../readme.md){ .md-button .md-button--primary }
 
 <div class="grid cards" markdown="1">
 
@@ -48,5 +50,5 @@ The docs version of the reading list is split into smaller sections so it is eas
 </div>
 
 <div class="holo-mini-note" markdown="1">
-These section pages are generated from [`README.md`](../readme.md), so the repository README remains the single source of truth.
+These section pages are generated from [`README.md`](../readme.md), so the full survey stays canonical while section views remain easy to browse.
 </div>

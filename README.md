@@ -25,7 +25,7 @@ A curated list of resources on **neural holographic displays**.
 In that sense, it is also a reminder that the [wonderland](https://worrydream.com/refs/Sutherland_1965_-_The_Ultimate_Display.pdf) Ivan Sutherland imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to be built.
 
 ## How to Use This List
-This README works best as a reading map: start from the question you care about, then dive into the corresponding paper clusters.
+This README works best as a codex: start from the question you care about, then dive into the corresponding paper clusters.
 
 | Goal | Start here | Then continue with |
 | --- | --- | --- |

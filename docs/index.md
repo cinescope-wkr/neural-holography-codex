@@ -7,21 +7,24 @@ hide:
 
 <div class="holo-kicker">Awesome Neural Holography</div>
 
-# Neural Holography, Organized as a Growable Reading Map
+# Neural Holography, Organized as a Growable Codex
 
 <p class="holo-hero-lead">
-A growable reading map for neural holography, connecting CGH algorithms, wave optics,
+A growable codex for neural holography, connecting CGH algorithms, wave optics,
 display constraints, and the research threads that shape the field.
 </p>
 
-[Browse the reading list](reading-list/index.md){ .md-button .md-button--primary }
-[Explore subtopics](subtopics/holographic_projection.md){ .md-button }
-[See labs and venues](reading-list/labs-and-researchers.md){ .md-button }
+[Start with the full survey](readme.md){ .md-button .md-button--primary }
+[Browse methods by section](reading-list/index.md){ .md-button }
+[Find labs and researchers](reading-list/labs-and-researchers.md){ .md-button }
 
 </section>
 
-This documentation site is intentionally lightweight. The homepage is curated for browsing,
-while the long-form research list stays synchronized with the repository sources.
+Neural holographic displays sit at the intersection of computational holography, wave optics,
+display hardware, human perception, and learned models that try to bridge idealized simulation
+with physical systems. This repository collects that broader flow of ideas, and this codex is the
+docs-first way to navigate it: from foundational papers and algorithm families to system-level
+constraints, labs, software, and adjacent subtopics.
 
 ## Why This Exists
 
@@ -31,7 +34,7 @@ that means relevant ideas often live in different venues, use different terminol
 to miss if you only follow one community.
 
 **This project tries to make those connections easier to inherit and extend.** The hope is that a
-shared reading map can support a small [Cambrian explosion](https://en.wikipedia.org/wiki/Cambrian_explosion)
+shared codex can support a small [Cambrian explosion](https://en.wikipedia.org/wiki/Cambrian_explosion)
 of reusable methods, sharper comparisons, and more cross-pollination between researchers who would
 otherwise stay separated by disciplinary boundaries. In that sense, it is also a reminder that the
 [wonderland](https://worrydream.com/refs/Sutherland_1965_-_The_Ultimate_Display.pdf) Ivan Sutherland
@@ -58,7 +61,7 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
   ---
 
-  A quick map of academic and industry groups that repeatedly appear across modern neural holography work.
+  A guide to the academic and industry groups behind many of the seminal contributions in modern neural holography.
 
 - **[Software](reading-list/software.md)**
 
@@ -78,11 +81,17 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 <div class="grid cards" markdown="1">
 
-- **[I want the reading overview](reading-list/index.md)**
+- **[I want the full survey](readme.md)**
 
   ---
 
-  Start from the split docs view of the synchronized repository reading list.
+  Start from the complete codex, then branch into section-specific views when needed.
+
+- **[I want to browse by section](reading-list/index.md)**
+
+  ---
+
+  Use the section guide when you want a shorter, category-first way to scan the material.
 
 - **[I want projection papers](subtopics/holographic_projection.md)**
 
@@ -106,8 +115,9 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 ## Recommended Reading Path
 
-1. Start with the [Reading List overview](reading-list/index.md) for the survey structure.
-2. Use [CGH algorithms](reading-list/cgh-algorithms.md) to build a method taxonomy.
-3. Continue with [display-system topics](reading-list/display-systems.md) to understand hardware-side constraints.
-4. Check [labs and researchers](reading-list/labs-and-researchers.md) and [venues and videos](reading-list/venues-and-videos.md) for community context and follow-up leads.
-5. Dive into subtopics when you want a narrower thread to expand.
+1. Start with the [full survey](readme.md) for the complete codex.
+2. Use [browse by section](reading-list/index.md) when you want a shorter guided entry point.
+3. Use [CGH algorithms](reading-list/cgh-algorithms.md) to build a method taxonomy.
+4. Continue with [display-system topics](reading-list/display-systems.md) to understand hardware-side constraints.
+5. Check [labs and researchers](reading-list/labs-and-researchers.md) and [venues and videos](reading-list/venues-and-videos.md) for community context and follow-up leads.
+6. Dive into subtopics when you want a narrower thread to expand.
