@@ -51,9 +51,14 @@ to miss if you only follow one community.
 **This project tries to make those connections easier to inherit and extend.** The hope is that a
 shared codex can support a small [Cambrian explosion](https://en.wikipedia.org/wiki/Cambrian_explosion)
 of reusable methods, sharper comparisons, and more cross-pollination between researchers who would
-otherwise stay separated by disciplinary boundaries. In that sense, it is also a reminder that the
-[wonderland](https://worrydream.com/refs/Sutherland_1965_-_The_Ultimate_Display.pdf) Ivan Sutherland
-imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to be built.
+otherwise stay separated by disciplinary boundaries.
+
+<p class="holo-philosophy-line">
+In that sense, it is also a reminder that the
+<a href="https://worrydream.com/refs/Sutherland_1965_-_The_Ultimate_Display.pdf">wonderland</a><br>
+Ivan Sutherland imagined in <em>The Ultimate Display</em> is still shimmering ahead of us,
+waiting to be built.
+</p>
 
 </div>
 
@@ -61,7 +66,7 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 ## What the Codex Covers { #what-the-codex-covers }
 
-<div class="holo-card-grid holo-zigzag-grid">
+<div class="holo-card-grid">
   <a class="holo-card" href="reading-list/cgh-algorithms.md">
     <span class="holo-card-title">CGH algorithms</span>
     <p>Traditional heuristics, iterative optimization, learned propagation models, and learned hologram synthesis methods in one place.</p>

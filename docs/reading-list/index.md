@@ -4,7 +4,7 @@ The codex remains the default view of the project. This page is the section-firs
 
 [Open the codex](../readme.md){ .md-button .md-button--primary .holo-soft-button .holo-browse-cta }
 
-<div class="holo-card-grid holo-zigzag-grid">
+<div class="holo-card-grid">
   <a class="holo-card" href="background-and-survey.md">
     <span class="holo-card-title">Background and Survey</span>
     <p>Start with foundational optics references and survey papers that frame the field.</p>
