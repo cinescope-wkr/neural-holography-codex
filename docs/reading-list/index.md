@@ -2,7 +2,7 @@
 
 The full codex remains the default view of the project. This page is the section-first way to scan the same material when you want a faster, category-based entry point.
 
-[Open the full codex](../readme.md){ .md-button .md-button--primary }
+[Open the full codex](../readme.md){ .md-button .md-button--primary .holo-soft-button }
 
 <div class="grid cards" markdown="1">
 
@@ -30,7 +30,7 @@ The full codex remains the default view of the project. This page is the section
 
   Find reusable codebases and frameworks that turn papers into working research tools.
 
-- **[Labs and Researchers](labs-and-researchers.md)**
+- **[Labs and Research Groups](labs-and-researchers.md)**
 
   ---
 
@@ -48,8 +48,4 @@ The full codex remains the default view of the project. This page is the section
 
   Browse talks, lectures, and other supporting material that help contextualize the codex.
 
-</div>
-
-<div class="holo-mini-note" markdown="1">
-These section pages are generated from [`README.md`](../readme.md), so the full codex stays canonical while section views remain easy to browse.
 </div>

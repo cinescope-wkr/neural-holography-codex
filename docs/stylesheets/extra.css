@@ -109,13 +109,13 @@ body {
 
 .md-typeset .holo-home-shell {
   margin-inline: auto;
-  max-width: 58rem;
+  max-width: 52rem;
 }
 
 .md-typeset .holo-intro > p {
   color: var(--md-default-fg-color);
-  font-size: 1.01rem;
-  line-height: 1.75;
+  font-size: inherit;
+  line-height: 1.7;
   margin: 0;
 }
 
@@ -514,6 +514,27 @@ body {
   font-weight: var(--holo-weight-emphasis);
 }
 
+.md-typeset .md-button.holo-soft-button {
+  background:
+    linear-gradient(180deg, rgba(248, 250, 252, 0.88), rgba(255, 255, 255, 0.74));
+  border-color: rgba(148, 163, 184, 0.18);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.42),
+    0 4px 12px rgba(15, 23, 42, 0.05);
+  color: rgba(15, 23, 42, 0.86);
+}
+
+.md-typeset .md-button.holo-soft-button:hover,
+.md-typeset .md-button.holo-soft-button:focus {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(248, 250, 252, 0.82));
+  border-color: rgba(8, 145, 178, 0.18);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.48),
+    0 6px 14px rgba(15, 23, 42, 0.06);
+  color: var(--md-accent-fg-color);
+}
+
 .md-typeset .holo-hero .md-button {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.03));
@@ -579,6 +600,7 @@ body {
 }
 
 .md-top {
+  align-items: center;
   background: rgba(255, 255, 255, 0.64);
   backdrop-filter: blur(16px) saturate(135%);
   border: 1px solid rgba(148, 163, 184, 0.14);
@@ -587,15 +609,22 @@ body {
     0 8px 20px rgba(15, 23, 42, 0.08),
     0 1px 2px rgba(15, 23, 42, 0.04);
   color: rgba(15, 23, 42, 0.78);
+  display: inline-flex;
+  gap: 0.42rem;
+  justify-content: center;
+  line-height: 1;
   opacity: 0.96;
+  padding: 0.62rem 0.88rem 0.6rem;
+  text-align: center;
+  white-space: nowrap;
   transition:
     background-color 240ms cubic-bezier(0.22, 1, 0.36, 1),
     box-shadow 240ms cubic-bezier(0.22, 1, 0.36, 1),
     border-color 240ms cubic-bezier(0.22, 1, 0.36, 1),
     color 200ms ease,
-    transform 240ms cubic-bezier(0.22, 1, 0.36, 1),
     opacity 200ms ease;
-  will-change: transform, opacity, box-shadow;
+  vertical-align: middle;
+  will-change: opacity, box-shadow;
 }
 
 .md-top:hover,
@@ -606,27 +635,29 @@ body {
     0 12px 28px rgba(15, 23, 42, 0.1),
     0 2px 6px rgba(15, 23, 42, 0.05);
   color: var(--md-accent-fg-color);
-  transform: translate3d(0, -1px, 0);
 }
 
 .md-top:active {
-  transform: translate3d(0, 0, 0) scale(0.985);
+  opacity: 0.9;
 }
 
 .md-top svg {
+  flex: 0 0 auto;
   height: 0.9rem;
+  margin: 0;
   opacity: 0.88;
   transform: translate3d(0, 0, 0);
   transition:
     opacity 220ms ease,
     transform 240ms cubic-bezier(0.22, 1, 0.36, 1);
+  vertical-align: middle;
   width: 0.9rem;
 }
 
 .md-top:hover svg,
 .md-top:focus svg {
   opacity: 1;
-  transform: translate3d(0, -0.04rem, 0);
+  transform: translate3d(0, -0.02rem, 0);
 }
 
 .md-footer-meta__inner {

@@ -44,13 +44,13 @@ This README works best as a codex: start from the question you care about, then 
 | Build intuition for the field | [Background and Theory](#background-and-theory) | [Survey Papers](#survey-papers), [Learned Propagation Model Methods](#learned-propagation-model-methods) |
 | Understand CGH algorithm families | [Traditional Heuristic Methods](#traditional-heuristic-methods) | [Iterative Methods](#iterative-methods), [Learned Hologram Synthesis Methods](#learned-hologram-synthesis-methods) |
 | Focus on hardware and display constraints | [Topics in Holographic Display Systems](#topics-in-holographic-display-systems) | [Perception-related Research](#perception-related-research), [Small Form-factor Displays](#small-form-factor-displays) |
-| Map the research community | [Labs and Researchers](#labs-and-researchers) | [Software](#software), [Venues and Communities](#venues-and-communities), [Media and Resources](#media-and-resources) |
+| Map the research community | [Labs and Research Groups](#labs-and-research-groups) | [Software](#software), [Venues and Communities](#venues-and-communities), [Media and Resources](#media-and-resources) |
 
 ## Reading Conventions
 - `(Author et al. Year | Venue, Publisher)` shows the publication context at a glance.
 - Short descriptions are added only when the title alone does not make the main contribution obvious.
 - `CGH` means computer-generated holography, `CITL` means camera-in-the-loop, `SLM` means spatial light modulator, and `HOE` means holographic optical element.
-- `Labs and Researchers`, `Software`, `Venues and Communities`, and `Media and Resources` are best treated as reference appendices after you have a method-level overview.
+- `Labs and Research Groups`, `Software`, `Venues and Communities`, and `Media and Resources` are best treated as reference appendices after you have a method-level overview.
 
 ## Table of Contents
 <details>
@@ -72,7 +72,7 @@ This README works best as a codex: start from the question you care about, then 
     - [Small Form-factor Displays](#small-form-factor-displays)
     - [Compression](#compression)
     - [Zero or Higher Diffraction Orders Optimization](#zero-or-higher-diffraction-orders-optimization)
-- [Labs and Researchers](#labs-and-researchers)
+- [Labs and Research Groups](#labs-and-research-groups)
 - [Software](#software)
 - [Venues and Communities](#venues-and-communities)
     - [Journals](#journals)
@@ -248,7 +248,7 @@ Bulky headsets hamper the development of AR/VR. **Reducing the size** of hologra
 - Effect of spurious diffraction orders in arbitrary multifoci patterns produced via phase-only holograms
 - Off-axis camera-in-the-loop optimization with noise reduction strategy for high-quality hologram generation (*Chen et al. 2022 | Optics Letters, Optica*)
 
-## Labs and Researchers
+## Labs and Research Groups
 ### Academic Labs
 - [Computational Imaging Lab, Stanford University](https://www.computationalimaging.org)
 - [Computational Imaging Lab, Princeton University](https://light.princeton.edu)

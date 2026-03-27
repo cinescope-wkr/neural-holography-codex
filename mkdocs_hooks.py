@@ -14,7 +14,7 @@ README_SECTION_PAGE_MAP = {
     "reading-list/background-and-survey.md": ["Background, Theory, and Survey"],
     "reading-list/cgh-algorithms.md": ["Computer Generated Holography (CGH) Algorithms"],
     "reading-list/display-systems.md": ["Topics in Holographic Display Systems"],
-    "reading-list/labs-and-researchers.md": ["Labs and Researchers"],
+    "reading-list/labs-and-researchers.md": ["Labs and Research Groups"],
     "reading-list/software.md": ["Software"],
     "reading-list/venues-and-communities.md": ["Venues and Communities"],
     "reading-list/media-and-resources.md": ["Media and Resources"],

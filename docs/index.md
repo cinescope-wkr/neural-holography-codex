@@ -34,9 +34,9 @@ labs, software, and adjacent subtopics.
 
 <div class="holo-intro-meta" markdown="1">
 
-`Personal survey` `Alpha` Adapted in part from
-[Brian Chao's awesome-holography](https://github.com/bchao1/awesome-holography).
-Maintained by [Jinwoo Lee](mailto:cinescope@kaist.ac.kr).
+This alpha-stage personal survey was adapted in part from
+[Brian Chao's awesome-holography](https://github.com/bchao1/awesome-holography) and is maintained
+by [Jinwoo Lee](mailto:cinescope@kaist.ac.kr).
 
 </div>
 
@@ -58,7 +58,7 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 ## What You Will Find Here
 
-<div class="grid cards holo-grid-plain" markdown="1">
+<div class="grid cards" markdown="1">
 
 - **[CGH algorithms](reading-list/cgh-algorithms.md)**
 
@@ -79,11 +79,11 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
   Reusable libraries and frameworks that turn optics and holography papers into working research code.
 
-- **[Labs and researchers](reading-list/labs-and-researchers.md)**
+- **[Labs and research groups](reading-list/labs-and-researchers.md)**
 
   ---
 
-  A guide to the academic and industry groups behind many of the seminal contributions in modern neural holography.
+  A guide to the academic labs and research groups behind many of the seminal contributions in modern neural holography.
 
 - **[Venues and communities](reading-list/venues-and-communities.md)**
 
@@ -101,7 +101,7 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 ## Find What You Need
 
-<div class="grid cards holo-grid-plain" markdown="1">
+<div class="grid cards" markdown="1">
 
 - **[I want the full codex](readme.md)**
 
@@ -149,7 +149,7 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 2. Use [browse by section](reading-list/index.md) when you want a shorter guided entry point.
 3. Use [CGH algorithms](reading-list/cgh-algorithms.md) to build a method taxonomy.
 4. Continue with [display-system topics](reading-list/display-systems.md) to understand hardware-side constraints.
-5. Check [software](reading-list/software.md), [labs and researchers](reading-list/labs-and-researchers.md), [venues and communities](reading-list/venues-and-communities.md), and [media and resources](reading-list/media-and-resources.md) for implementation paths and community context.
+5. Check [software](reading-list/software.md), [labs and research groups](reading-list/labs-and-researchers.md), [venues and communities](reading-list/venues-and-communities.md), and [media and resources](reading-list/media-and-resources.md) for implementation paths and community context.
 6. Dive into subtopics when you want a narrower thread to expand.
 
 </div>
