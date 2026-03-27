@@ -22,6 +22,8 @@ the field.
 
 </section>
 
+<div class="holo-home-shell" markdown="1">
+
 <div class="holo-intro" markdown="1">
 
 Neural holographic displays sit at the intersection of computational holography, wave optics,
@@ -56,7 +58,7 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 ## What You Will Find Here
 
-<div class="grid cards" markdown="1">
+<div class="grid cards holo-grid-plain" markdown="1">
 
 - **[CGH algorithms](reading-list/cgh-algorithms.md)**
 
@@ -99,7 +101,7 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 
 ## Find What You Need
 
-<div class="grid cards" markdown="1">
+<div class="grid cards holo-grid-plain" markdown="1">
 
 - **[I want the full codex](readme.md)**
 
@@ -149,5 +151,7 @@ imagined in *The Ultimate Display* is still shimmering ahead of us, waiting to b
 4. Continue with [display-system topics](reading-list/display-systems.md) to understand hardware-side constraints.
 5. Check [software](reading-list/software.md), [labs and researchers](reading-list/labs-and-researchers.md), [venues and communities](reading-list/venues-and-communities.md), and [media and resources](reading-list/media-and-resources.md) for implementation paths and community context.
 6. Dive into subtopics when you want a narrower thread to expand.
+
+</div>
 
 </div>
