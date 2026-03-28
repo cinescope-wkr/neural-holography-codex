@@ -1483,7 +1483,7 @@ body {
 
 .md-footer-meta__inner::after {
   color: rgba(255, 255, 255, 0.52);
-  content: "\00A9 2026 Jinwoo Lee";
+  content: "\00A9\0020 2026 Jinwoo Lee";
   font-size: 0.72rem;
   font-weight: 450;
   letter-spacing: 0.035em;
@@ -1512,6 +1512,28 @@ body {
 }
 
 @media screen and (max-width: 76.1875em) {
+  :root {
+    --holo-drawer-width: min(84vw, 17.25rem);
+  }
+
+  [dir="ltr"] .md-sidebar--primary {
+    left: calc(-1 * var(--holo-drawer-width));
+    width: var(--holo-drawer-width);
+  }
+
+  [dir="rtl"] .md-sidebar--primary {
+    right: calc(-1 * var(--holo-drawer-width));
+    width: var(--holo-drawer-width);
+  }
+
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary {
+    transform: translateX(var(--holo-drawer-width));
+  }
+
+  [dir="rtl"] [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary {
+    transform: translateX(calc(-1 * var(--holo-drawer-width)));
+  }
+
   .md-main,
   .md-main__inner {
     max-width: 100%;
@@ -1522,6 +1544,43 @@ body {
   .md-content,
   .md-content__inner {
     max-width: 100%;
+  }
+
+  /* Reset complex desktop sidebar styling in drawer/tablet mode */
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    margin-inline: 0;
+    padding: 0.4rem 0.2rem 0.8rem;
+  }
+
+  .md-sidebar--primary .md-nav__title {
+    background: transparent;
+    border-bottom: 0;
+    border-radius: 0;
+    margin: 0;
+    padding: 0.72rem 0.55rem 0.44rem;
+  }
+
+  .md-sidebar--primary .md-nav__item:has(> .md-nav__toggle + .md-nav__container > a[href$="reading-list/"]) > .md-nav__container > a[href$="reading-list/"] .md-ellipsis,
+  .md-sidebar--primary .md-nav__item:has(> .md-nav__toggle + .md-nav__container > a[href$="./"]) > .md-nav__container > a[href$="./"] .md-ellipsis {
+    font-size: inherit;
+  }
+
+  .md-sidebar--primary .md-nav__item:has(> .md-nav__toggle + .md-nav__container > a[href$="reading-list/"]) > .md-nav__container > a[href$="reading-list/"] .md-ellipsis::after,
+  .md-sidebar--primary .md-nav__item:has(> .md-nav__toggle + .md-nav__container > a[href$="./"]) > .md-nav__container > a[href$="./"] .md-ellipsis::after {
+    content: none;
+  }
+
+  .md-sidebar--primary > .md-sidebar__scrollwrap .md-nav__item > .md-nav__link {
+    font-weight: var(--holo-weight-emphasis);
+  }
+
+  .md-nav--primary .md-nav__link {
+    margin-inline: 0.08rem;
+  }
+
+  .md-nav--primary .md-nav__list .md-nav__list {
+    margin: 0.18rem 0.08rem 0.35rem 0.78rem;
+    padding: 0.12rem 0 0.12rem 0.42rem;
   }
 
   .md-typeset :where(img, svg, video, canvas, iframe) {
@@ -1573,9 +1632,12 @@ body {
   }
 
   .md-footer-meta__inner::after {
-    align-self: flex-end;
-    text-align: right;
+    align-self: stretch;
+    display: block;
+    padding-top: 0.28rem;
+    text-align: left;
     white-space: normal;
+    width: 100%;
   }
 
   .md-typeset .holo-home-effective-layout {
@@ -1693,6 +1755,16 @@ body {
     padding-block: 0.55rem max(0.95rem, env(safe-area-inset-bottom));
   }
 
+  .md-typeset {
+    line-height: 1.72;
+  }
+
+  .md-typeset p,
+  .md-typeset li {
+    letter-spacing: 0.002em;
+    line-height: 1.76;
+  }
+
   .md-sidebar--primary .md-nav__title,
   .md-sidebar--secondary .md-nav__title {
     font-size: 0.79rem;
@@ -1808,18 +1880,18 @@ body {
   .md-typeset .holo-intro {
     border-radius: 0.66rem;
     margin-bottom: 1.6rem;
-    padding: 1.06rem 1.1rem 1rem;
+    padding: 1.22rem 1.28rem 1.16rem;
   }
 
   .md-typeset .holo-philosophy-panel {
     border-radius: 0.62rem;
-    padding: 1.12rem 1.18rem 1.14rem;
+    padding: 1.24rem 1.3rem 1.2rem;
   }
 
   .md-typeset .holo-acknowledgement,
   .md-typeset .holo-reading-path {
     border-radius: 0.62rem;
-    padding: 1.12rem 1.18rem 1.14rem;
+    padding: 1.24rem 1.3rem 1.2rem;
   }
 
   .md-typeset .holo-home-shell {
@@ -1912,6 +1984,24 @@ body {
   .md-content__inner {
     margin-top: 0.4rem;
     padding-bottom: 2.8rem;
+  }
+
+  .md-footer-meta__inner {
+    gap: 0.38rem;
+    padding-inline: 0.88rem;
+  }
+
+  .md-copyright,
+  .md-copyright__highlight {
+    line-height: 1.45;
+    white-space: normal;
+  }
+
+  .md-footer-meta__inner::after {
+    font-size: 0.76rem;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
   }
 
   .md-top {
