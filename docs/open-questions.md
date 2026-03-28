@@ -1,4 +1,3 @@
-# Open Questions
 
 This page collects unresolved questions, research tensions, and recurring gaps that appear across
 the neural holography landscape. The goal is not to force one agenda, but to make it easier to see

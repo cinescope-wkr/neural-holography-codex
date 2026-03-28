@@ -9,7 +9,7 @@
   </a>
 </p>
 
-A curated list of resources on **neural holographic displays**.
+A growable codex of research on neural holography displays.
 
 ## Notice 
 > [!NOTE]

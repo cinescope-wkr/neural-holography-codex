@@ -4,10 +4,12 @@ hide:
   - toc
 ---
 
+<div class="holo-home-effective-layout" markdown="1">
+
 <div class="holo-home-hero-layout" markdown="1">
 
 <nav class="holo-home-jumpnav" aria-label="Home section navigation">
-  <a href="#philosophy-behind-the-codex">Philosophy behind the Codex</a>
+  <a href="#philosophy-behind-the-codex"> Philosophy behind the Codex</a>
   <a href="#scope-of-codex">Scope of Codex</a>
   <a href="#recommended-reading-path">Recommended Reading Path</a>
   <a href="#acknowledgement">Acknowledgement</a>
@@ -17,12 +19,17 @@ hide:
 
 <div class="holo-kicker">Neural Holography Codex</div>
 
-# Neural Holography, Organized as a Growable Research Codex
+# <span class="holo-hero-title-strong">Neural Holography</span>, Organized as a Growable Research Codex
 
 <p class="holo-hero-lead">
 A growable codex for neural holography, connecting CGH algorithms, learning
 methods, display hardware, human perception, and the research threads that shape
 the field.
+</p>
+
+<p class="holo-hero-support">
+This site is the high-level guide to this codex: how it is organized, which research
+threads and sections are already mapped, and where contributors can help extend it next.
 </p>
 
 <nav class="holo-hero-actions" aria-label="Hero navigation">
@@ -35,43 +42,35 @@ the field.
 
 </div>
 
-<div class="holo-home-shell" markdown="1">
+<div class="holo-home-main-column" markdown="1">
 
-<div class="holo-intro" markdown="1">
-
-Neural holographic displays sit at the intersection of computational holography, wave optics,
-display hardware, human perception, and learnable models that try to bridge idealized simulation
-with physical systems. This codex is an ongoing personal survey of that broader landscape, organized
-as a docs-first path from foundational papers and algorithm families to system-level constraints,
-labs, software, and adjacent subtopics.
-
-</div>
+<div class="holo-home-shell holo-home-section holo-home-section--muted" markdown="1">
 
 ## Philosophy behind the Codex { #philosophy-behind-the-codex }
 
 <div class="holo-philosophy-panel" markdown="1">
 
-**Neural holography is an inherently interdisciplinary field** where optics, graphics, imaging,
+**Neural holography** is an inherently interdisciplinary field where optics, graphics, imaging,
 vision, display systems, fabrication, perception, and machine learning all overlap. In practice,
 that means relevant ideas often live in different venues, use different terminology, and are easy
 to miss if you only follow one community.
 
 **This project tries to make those connections easier to inherit and extend.** The hope is that a
-shared codex can support a small [Cambrian explosion](https://en.wikipedia.org/wiki/Cambrian_explosion)
+shared codex can support a small **[Cambrian explosion](https://en.wikipedia.org/wiki/Cambrian_explosion)**
 of reusable methods, sharper comparisons, and more cross-pollination between researchers who would
 otherwise stay separated by disciplinary boundaries.
 
 </div>
 
 <p class="holo-philosophy-line">
-The <a href="https://worrydream.com/refs/Sutherland_1965_-_The_Ultimate_Display.pdf">wonderland</a>
+The <strong><a href="https://worrydream.com/refs/Sutherland_1965_-_The_Ultimate_Display.pdf">wonderland</a></strong>
 Ivan Sutherland imagined in <em>The Ultimate Display</em> is still shimmering ahead of us,
 waiting to be built.
 </p>
 
 </div>
 
-<div class="holo-home-grid-shell" markdown="1">
+<div class="holo-home-grid-shell holo-home-section holo-home-section--plain" markdown="1">
 
 ## Scope of Codex { #scope-of-codex }
 
@@ -108,15 +107,15 @@ waiting to be built.
 
 </div>
 
-<div class="holo-home-shell" markdown="1">
+<div class="holo-home-shell holo-home-section holo-home-section--muted" markdown="1">
 
 ## Recommended Reading Path { #recommended-reading-path }
 
 <div class="holo-reading-path" markdown="1">
 
-Start with the complete map, then branch outward by purpose.
+Start with the complete **Neural holography** map, then branch outward by purpose.
 
-1. Begin with the [codex](readme.md) for the full long-form survey.
+1. Begin with the [codex](readme.md) for the full long-form **Neural holography** survey.
 2. Use [browse by section](reading-list/index.md) when you want a faster category-first route.
 3. Build method intuition through [CGH algorithms](reading-list/cgh-algorithms.md) and [display systems](reading-list/display-systems.md).
 4. Continue with [software](reading-list/software.md) and [labs and research groups](reading-list/labs-and-researchers.md) to connect ideas to implementation and people.
@@ -126,7 +125,7 @@ Start with the complete map, then branch outward by purpose.
 
 </div>
 
-<div class="holo-home-shell" markdown="1">
+<div class="holo-home-shell holo-home-section holo-home-section--plain" markdown="1">
 
 ## Acknowledgement { #acknowledgement }
 
@@ -136,9 +135,13 @@ This codex began as an ongoing personal survey of neural holographic display res
 adapted in part from [Brian Chao](https://bchao1.github.io)'s [awesome-holography](https://github.com/bchao1/awesome-holography),
 whose structure and collected references helped shape this project.
 
-Many thanks to [Brian Chao](https://bchao1.github.io) and to the authors, maintainers, and researchers whose papers, codebases,
-talks, and shared resources make the field easier to study. The current codex is maintained by
-[Jinwoo Lee](https://www.linkedin.com/in/jinwoo-lee-6424281aa/).
+We are grateful to [Brian Chao](https://bchao1.github.io), and to the authors, maintainers, and researchers whose papers,
+codebases, talks, and shared resources continue to make the field more accessible. The current codex is maintained by
+**[Jinwoo Lee](https://www.linkedin.com/in/jinwoo-lee-6424281aa/)** (cinescope@kaist.ac.kr).
+
+</div>
+
+</div>
 
 </div>
 
