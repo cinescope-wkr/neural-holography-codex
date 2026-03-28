@@ -1,11 +1,11 @@
 # Neural Holography Codex
 
 <p align="center">
-  <a href="https://cinescope-wkr.github.io/awesome-neural-holography/">
+  <a href="https://cinescope-wkr.github.io/neural-holography-codex/">
     <img src="https://img.shields.io/badge/Documentation-online-blue" alt="Documentation">
   </a>
-  <a href="https://github.com/cinescope-wkr/awesome-neural-holography/actions/workflows/deploy-docs.yml">
-    <img src="https://github.com/cinescope-wkr/awesome-neural-holography/actions/workflows/deploy-docs.yml/badge.svg" alt="Docs Deploy">
+  <a href="https://github.com/cinescope-wkr/neural-holography-codex/actions/workflows/deploy-docs.yml">
+    <img src="https://github.com/cinescope-wkr/neural-holography-codex/actions/workflows/deploy-docs.yml/badge.svg" alt="Docs Deploy">
   </a>
 </p>
 

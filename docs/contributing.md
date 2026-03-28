@@ -12,7 +12,7 @@ acknowledges Brian Chao and the authors of the works collected here.
 
 If you want to contribute to this list, please:
 
-1. [Create a new issue](https://github.com/cinescope-wkr/awesome-neural-holography/issues).
+1. [Create a new issue](https://github.com/cinescope-wkr/neural-holography-codex/issues).
 2. Explain why the paper, book, talk, dataset, lab, or tool is relevant and where it should be placed.
 3. If helpful, mention which community it comes from and what other thread in the list it helps connect.
 

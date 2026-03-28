@@ -1,8 +1,8 @@
 site_name: Neural Holography Codex
 site_description: A growable codex of research on neural holography displays.
-site_url: https://cinescope-wkr.github.io/awesome-neural-holography/
-repo_url: https://github.com/cinescope-wkr/awesome-neural-holography
-repo_name: cinescope-wkr/awesome-neural-holography
+site_url: https://cinescope-wkr.github.io/neural-holography-codex/
+repo_url: https://github.com/cinescope-wkr/neural-holography-codex
+repo_name: cinescope-wkr/neural-holography-codex
 docs_dir: docs
 site_dir: site
 plugins:
