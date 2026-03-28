@@ -49,8 +49,6 @@ labs, software, and adjacent subtopics.
 
 ## Philosophy behind the Codex { #philosophy-behind-the-codex }
 
-<div class="holo-philosophy-grid" markdown="1">
-
 <div class="holo-philosophy-panel" markdown="1">
 
 **Neural holography is an inherently interdisciplinary field** where optics, graphics, imaging,
@@ -58,16 +56,10 @@ vision, display systems, fabrication, perception, and machine learning all overl
 that means relevant ideas often live in different venues, use different terminology, and are easy
 to miss if you only follow one community.
 
-</div>
-
-<div class="holo-philosophy-panel" markdown="1">
-
 **This project tries to make those connections easier to inherit and extend.** The hope is that a
 shared codex can support a small [Cambrian explosion](https://en.wikipedia.org/wiki/Cambrian_explosion)
 of reusable methods, sharper comparisons, and more cross-pollination between researchers who would
 otherwise stay separated by disciplinary boundaries.
-
-</div>
 
 </div>
 
